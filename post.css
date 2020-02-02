@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.post {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  width: 400px;
+  min-height: 40vh;
+  background-color: hsl(165, 8%, 90%);
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+hr {
+  opacity: 0.5;
+  margin: 5px;
+}
+
+.korisnik, .datum, .content {
+  padding: 0 0.2rem;
+}
+
+.korisnik {
+  width: 90%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(69, 69, 216);
+  padding-top: 5px;
+}
+
+.datum {
+  width: 90%;
+  height: 1.2rem;
+  padding: 0.2rem;
+  font-size: 0.5rem;
+}
+
+.content {
+  width: 90%;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+
+.addLike {
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.showComments {
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+
+.likes-number {
+  width: 45px;
+  text-align: center;
+  font-size: 0.7rem;
+  background-color: red;
+  color: rgba(250, 246, 246, 0.993);
+  border: none;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.likes_comments {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.comments-number{
+  width: 100px;
+  font-size: 0.7rem;
+  color: #bbb;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 1rem 0;
+}
+
+.form {
+  width: 90%;
+  margin: 5px;
+}
+
+.form input {
+  width: 100%;
+  height: 1.4rem;
+  background: rgb(238, 235, 235);
+  border-radius: 5px;
+  border: none;
+
+}
+
+#svi-komentari {
+  margin: 5px;
+}
